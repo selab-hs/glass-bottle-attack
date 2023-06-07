@@ -1,1 +1,1 @@
-rootProject.name = "glass-bottle-attack"
+rootProject.name = "glass-bottle-killer"

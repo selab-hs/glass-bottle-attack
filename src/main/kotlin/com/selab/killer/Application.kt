@@ -1,6 +1,6 @@
-package com.selab.glassbottleattack
+package com.selab.killer
 
-import com.selab.glassbottleattack.extension.Zone
+import com.selab.killer.extension.Zone
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.event.ApplicationReadyEvent
 import org.springframework.boot.runApplication

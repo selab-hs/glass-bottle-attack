@@ -1,4 +1,4 @@
-package com.selab.glassbottleattack.extension
+package com.selab.killer.extension
 
 import java.time.ZoneId
 

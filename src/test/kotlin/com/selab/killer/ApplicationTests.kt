@@ -1,10 +1,10 @@
-package com.selab.glassbottleattack
+package com.selab.killer
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class GlassBottleAttackApplicationTests {
+class ApplicationTests {
 
     @Test
     fun contextLoads() {

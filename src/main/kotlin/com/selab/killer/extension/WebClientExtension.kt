@@ -1,4 +1,4 @@
-package com.selab.glassbottleattack.extension
+package com.selab.killer.extension
 
 import io.netty.channel.ChannelOption
 import io.netty.handler.timeout.ReadTimeoutHandler

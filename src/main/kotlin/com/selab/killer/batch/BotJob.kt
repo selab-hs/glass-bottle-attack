@@ -1,4 +1,4 @@
-package com.selab.glassbottleattack.batch
+package com.selab.killer.batch
 
 import org.springframework.stereotype.Component
 
