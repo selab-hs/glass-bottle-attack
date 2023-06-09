@@ -1,5 +1,6 @@
 package com.selab.killer.client
 
+import com.selab.killer.extension.WebClientExtension
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 
@@ -7,6 +8,8 @@ import org.springframework.context.annotation.Configuration
 class BotConfig {
     @Bean
     fun botClient(): BotClient {
-        return ReactiveBotClient()
+        // TODO : baseUrl 필여함
+        val webClient = WebClientExtension.generate(baseUrl = "htttp")
+        return ReactiveBotClient(webClient)
     }
 }

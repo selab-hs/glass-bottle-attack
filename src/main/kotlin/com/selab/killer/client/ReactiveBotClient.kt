@@ -1,4 +1,6 @@
 package com.selab.killer.client
 
-class ReactiveBotClient : BotClient {
+import org.springframework.web.reactive.function.client.WebClient
+
+class ReactiveBotClient(webClient: WebClient) : BotClient {
 }
