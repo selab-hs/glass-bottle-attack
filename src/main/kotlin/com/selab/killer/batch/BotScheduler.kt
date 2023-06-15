@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component
 class BotScheduler(
     private val botJob: BotJob
 ) {
-    @Scheduled(cron = "*/3 * * * * *")
+    // @Scheduled(cron = "*/3 * * * * *")
     fun attackHealthCheck() = botJob.runAttackHealthCheckJob()
 }
