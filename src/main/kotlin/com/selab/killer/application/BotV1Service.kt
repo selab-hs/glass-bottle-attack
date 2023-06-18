@@ -18,7 +18,7 @@ class BotV1Service(
     private val logger = mu.KotlinLogging.logger { }
 
     @Async(value = "taskExecutor")
-    fun executeKiller() {
+    fun coExecuteKiller() {
         runBlocking { killServer() }
         logger.info { "killer start / no stop...." }
     }
